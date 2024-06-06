@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON Formatter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="json_formatter.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <h1>JSON Formatter</h1>
+    <label for="jsonInput"></label><textarea id="jsonInput" placeholder="Введите JSON данные здесь..."></textarea>
+    <button onclick="formatJSON()">Форматировать JSON</button>
+    <div id="resultContainer">
+        <h2>Результат форматирования:</h2>
+        <pre id="jsonResult"></pre>
+        <div id="errorMessage"></div>
+    </div>
+</div>
+</body>
+</html>
